@@ -1,0 +1,114 @@
+/*Balise utilisé avec leur  style pour chacun*/
+header{
+	background-color: grey;
+	border: thick double #ffffff;
+}
+
+
+h1{
+	color: #ffffff;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h2{
+	color: whitesmoke;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h3{
+	color: whitesmoke;
+	text-align: center;
+	text-decoration: underline;
+}
+
+main{
+	border: solid 2px blue;	
+	background-color: #ff0000;
+	height: auto;
+	overflow: auto;
+	clear: both;
+	padding: 20px;
+}
+
+footer{
+	border: solid 2px white;	
+	background-color: #C0C0C0;
+	padding: 1em;
+	width: auto;
+	height: auto;
+	overflow: auto;
+	clear: both;
+}
+
+span{
+	color: white;
+	font-style: italic;
+	font-size:1.5em;
+}
+
+p{
+	text-indent: 20px;
+	text-align: justify;
+	margin:auto;
+	color: white;
+	font-family: 'Arial',sans-serif;
+	font-size: 1.3em;
+	line-height: 150%;
+}
+
+aside {
+    width: 50%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #ffffff;
+}
+
+aside > p {
+    margin: .5rem;    
+    font-size: 1em;
+    font-family: sans-serif;
+}
+/*Balise pour metttre en forme les images et le texte ainsi que la vidéo*/
+.type1{
+	float: left;
+	width: 40%;
+  	padding: 20px;
+  	border: 5px solid #191970;
+  	border-radius: 50px;
+ 	margin: 0;
+}
+
+.type2{
+	float: right;
+	width: 30%;
+  	padding: 5px;
+  	border: 5px solid white;
+ 	margin-right: 10%;
+ 	border-radius: 50px;
+}
+
+.type3{
+	width: auto;
+	height: auto;
+  	padding: 30px;
+  	border: 2px solid white;
+ 	margin: 20px;
+ 	border-radius: 50px;
+}
+
+iframe{
+	display: block;
+	margin-left:auto;
+	margin-right: auto; 
+	border:0;
+	width: auto;
+	height: auto;
+}
+
+.ecriture{
+	font-weight: bold;
+	font-style: italic;
+}

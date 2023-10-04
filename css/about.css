@@ -1,0 +1,62 @@
+/*Balise utilisé avec leur  style pour chacun*/
+header{
+	background-color: #00ffff;
+	border: thick double #ffffff;
+	}
+
+h1{
+	color: #fff;
+	text-align: center;
+	text-decoration: underline;
+}
+
+main{
+	border: solid 2px blue;	
+	background-color: #000000;
+	padding: 2em;
+	height: auto;
+	width: auto;
+}
+
+footer{
+	border: solid 2px white;
+	background-color: #C0C0C0;
+	padding: 1em;
+	width: auto;
+	height: auto;
+}
+
+span{
+	color: white;
+	font-style: italic;
+	font-size:1.5em;
+}
+
+p{
+	text-indent: 20px;
+	text-align: justify;
+	margin:auto;
+	color: white;
+	font-size: 1.5em;
+	line-height: 150%;
+}
+
+aside {
+    width: 50%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #ffffff;
+}
+
+aside > p {
+    margin: .5rem;    
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+h3{
+	color: #fff;
+	text-align: center;
+	text-decoration: underline;
+}
